@@ -1,0 +1,18 @@
+{
+
+  "description": "Allows you to read multiple articles on NRC",
+  "manifest_version": 2,
+  "name": "NRC Viewer",
+  "version": "1.0",
+  "homepage_url": "https://github.com/",
+  "icons": {
+    "48": "contents/icons/icon.ico"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.nrc.nl/*"],
+      "js": ["contents/js/remove_cookie.js"]
+    }
+  ]
+}
