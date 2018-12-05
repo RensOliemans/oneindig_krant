@@ -1,10 +1,10 @@
 {
 
-  "description": "Allows you to read multiple articles on NRC",
+  "description": "Allows you to read multiple articles on some Dutch newspaper sites",
   "manifest_version": 2,
-  "name": "NRC Viewer",
+  "name": "Oneindig_krant",
   "version": "1.0",
-  "homepage_url": "https://github.com/",
+  "homepage_url": "https://github.com/RensOliemans/oneindig_krant",
   "icons": {
     "48": "contents/icons/icon.ico"
   },
