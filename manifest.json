@@ -12,7 +12,11 @@
   "content_scripts": [
     {
       "matches": ["*://*.nrc.nl/*"],
-      "js": ["contents/js/remove_cookie.js"]
+      "js": ["contents/js/nrc.js"]
+    },
+    {
+      "matches": ["*://*.volkskrant.nl/*"],
+      "js": ["contents/js/volkskrant.js"]
     }
   ]
 }
